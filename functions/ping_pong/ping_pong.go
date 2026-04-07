@@ -27,7 +27,7 @@ func chat(e event.Event) uint32 {
 
 	// Create client
 	client, err := tinfoil.NewClient(
-		option.WithAPIKey("tk_XXXX"), // <-- replace with env later
+		option.WithAPIKey("tk_3jmU8I2w5Kq8H33wmmGb9l9bgKOCvIzKhJGXB0WPJzCgzpEq"), // <-- replace with env later
 	)
 	if err != nil {
 		log.Printf("client error: %v", err)
